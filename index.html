@@ -1,0 +1,71 @@
+<!-- Name: Seif Waleed Mohamed Elhefny | ID: 224101416 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seif Waleed - Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Seif Waleed Mohamed Elhefny</h1>
+        <nav class="navbar">
+            <span class="left-name">Seif Waleed</span>
+            <ul class="right-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                <li><button id="theme-btn" type="button">Dark Mode</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-section">
+            <img src="images/me.jpg" alt="Profile photo of Seif Waleed">
+        </section>
+
+        <section id="skills" class="cards-section">
+            <h2>Skills &amp; Hobbies</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Computer Networks</h3>
+                    <p>Studying CCNA &amp; CCNP concepts, routing, switching, and network security.</p>
+                </div>
+                <div class="card">
+                    <h3>AI &amp; Cybersecurity</h3>
+                    <p>AI Engineering student at New Mansoura University focusing on cybersecurity.</p>
+                </div>
+                <div class="card">
+                    <h3>Sports &amp; Hardcore Gamer</h3>
+                    <p>Passionate about gym workouts, playing football, and a huge fan of video games.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Leave a Message</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="visitor-name">Name:</label>
+                    <input type="text" id="visitor-name" name="visitor-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+            <p id="greeting-msg"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Seif Waleed Mohamed Elhefny. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
